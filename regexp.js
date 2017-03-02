@@ -1,4 +1,4 @@
-//1. Регулярное выражение для поиска контейнера для лого на сайте Яндекс
+//1. Регулярное выражение для поиска контейнера для лого на сайте
 
 var objectHTMLCollection = body.getElementsByTagName("*"); // Создаем HTML коллекцию из всех тегов содержащихся в body.
 var string = [].map.call( objectHTMLCollection, function(node){
